@@ -6,11 +6,13 @@ install_PYTHON =	\
 	__init__.py \
 	plugin.py \
 	BackupRestore.py \
-	ImageWizard.py \
-	SoftwareTools.py
+	Flash_online.py \
+	SoftwareTools.py \
+	ImageBackup.py \
+	RestoreWizard.py
 
 dist_install_DATA = \
-	imagewizard.xml \
+	restorewizard.xml \
 	installable.png \
 	installed.png \
 	install.png \
