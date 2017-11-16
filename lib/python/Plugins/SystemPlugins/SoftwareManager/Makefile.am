@@ -4,7 +4,6 @@ SUBDIRS = meta
 
 install_PYTHON =	\
 	__init__.py \
-	plugin.py \
 	BackupRestore.py \
 	Flash_online.py \
 	SoftwareTools.py \
